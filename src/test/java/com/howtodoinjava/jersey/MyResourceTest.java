@@ -16,6 +16,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * 
+ * @author manjusuresh
+ *
+ */
 public class MyResourceTest {
 	public static final URI BASE_URI = UriBuilder.fromUri("http://localhost").port(8082).build();
 	private HttpServer server;
