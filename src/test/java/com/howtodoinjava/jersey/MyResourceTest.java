@@ -17,7 +17,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class MyResourceTest {
-	public static final URI BASE_URI = UriBuilder.fromUri("http://localhost").port(8080).build();
+	public static final URI BASE_URI = UriBuilder.fromUri("http://localhost").port(8082).build();
 	private HttpServer server;
 	private WebTarget target;
 
@@ -43,6 +43,6 @@ public class MyResourceTest {
 	@Test
 	public void testGetIt() {
 		String responseMsg = target.path("message").request().get(String.class);
-		assertEquals("{\"name\" : \"Hello World !! - suresh babu Averineni\"}", responseMsg);
+		assertEquals("{\"name\" : \"Hello World !! - suresh  Averineni\"}", responseMsg);
 	}
 }
