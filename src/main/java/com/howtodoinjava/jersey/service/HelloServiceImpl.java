@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class HelloServiceImpl {
 
 	public String call() {
-		return "{\"name\" : \"Hello World !! - suresh babu Averineni\"}";
+		return "{\"name\" : \"Hello World !! - suresh  Averineni\"}";
 	}
 }
