@@ -17,7 +17,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * hello lih hh sdq wd
  * @author manjusuresh
  *
  */
