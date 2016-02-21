@@ -49,6 +49,6 @@ public class MyResourceTest {
 	@Test
 	public void testGetIt() {
 		String responseMsg = target.path("message").request().get(String.class);
-		assertEquals("{\"name\" : \"Hello World !! - suresh babu Averineni\"}", responseMsg);
+		assertEquals("{\"name\" : \"Hello World !! - subbaiah Averineni\"}", responseMsg);
 	}
 }
